@@ -1,0 +1,104 @@
+*  {
+    margin: 0;
+}
+
+html {
+    height: 120%;
+    background-color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+nav{
+    height:40px;
+    width: 98%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    background-color: teal;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+.splash {
+    margin-top: 40px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background.jpg");
+
+    color: white;
+    }
+.boxgrp1{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display:flex;
+    align-items: self-end;
+    justify-content: center;
+    margin-top:20px;
+    height: 100px;
+    width: 200px;
+    border-top: 10px solid #0a86ee;
+    background-color: darkcyan;
+}
+.rectangle{
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    padding:10px 20% 10px 20%;
+    flex-direction: column;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: darkcyan;
+    color: white;
+}
+.largebox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    border-top: 25px solid #0a86ee;
+    background-color: darkcyan;
+    height: 200px;
+    width: 400px;
+    align-items: self-end;
+    justify-content: center;
+    color: white;
+
+}
+.footer{
+    height:40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    flex-direction: row;
+}
